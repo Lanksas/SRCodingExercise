@@ -1,0 +1,7 @@
+More Ideas for the DB
+
+public void createTable() // if we wanna expand the content we like to show or want to record more data
+
+public void showOnly // see only one specific sport - example only the football matches
+
+public void setBet() // implementing a betting system
