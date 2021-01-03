@@ -1,0 +1,71 @@
+/* 
+Die CSS styles sind gelistet wie sie in der HTML benötigt werden
+CSS styles are listed as used in the HTML file
+*/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-left: 50px;
+    margin-bottom: 0px;
+    font-size: 45px;
+    font-weight: normal;
+    display: inline-block;
+}
+
+.naviButton {
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: bolder;
+    background: transparent;
+    border: transparent;
+}
+
+button {
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+#subtitle {
+    margin-top: 0px;
+    margin-left: 68px;
+    font-weight: normal;
+}
+
+#tableHeader {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#tableContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+th {
+    padding-left: 30px;
+    padding-right: 30px;
+    border-right: 1px solid black;
+    border-bottom: 2px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+td {
+    border-right: 1px solid black;
+    text-align: center;
+}
